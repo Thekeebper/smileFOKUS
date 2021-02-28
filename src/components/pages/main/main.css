@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+  h4 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
+}
+
+@media (min-width: 992px) {
+  h4 {
+    font-size: 1rem;
+  } /*1rem = 16px*/
+}
+
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 1.8rem;
+  } /*1rem = 16px*/
+}
+@media (min-width: 1400px) {
+  h4 {
+    font-size: 2rem;
+  } /*1rem = 16px*/
+}
