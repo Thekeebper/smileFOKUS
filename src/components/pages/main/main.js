@@ -2,11 +2,10 @@ import React, { useEffect, useState } from "react";
 import Header from "../../fragments/header";
 import { Breadcrumb, Container, Row, Col, Dropdown } from "react-bootstrap";
 import "./main.css";
-import ReactDOM from "react-dom";
 import axios from "axios";
 import MaterialTable, { MTableToolbar } from "material-table";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import NumberFormat from "react-number-format";
 import { KeyboardDatePicker } from "@material-ui/pickers";
 export default function Main({ page_show }) {
@@ -517,7 +516,6 @@ export default function Main({ page_show }) {
       {Breadcrumb_show}
       {Body}
       {data_table}
-      {/* {data_table_total} */}
     </React.Fragment>
   );
 }
